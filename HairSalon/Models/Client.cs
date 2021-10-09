@@ -1,7 +1,4 @@
-namespace ProjectName
+namespace HairSalon.Models
 {
-  public class ClassName
+  public class Client
   {
-    // properties, constructors, methods, etc. go here
-  }
-}

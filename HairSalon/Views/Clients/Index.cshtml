@@ -9,7 +9,7 @@
 
 @foreach (Client client in Model)
 {
-  <li>@client.Name | @client.Stylist.Name </li>
+  <li><strong>Client name:</strong> @client.Name <strong>Client details:</strong> @client.Details <strong>Stylist:</strong> @client.Stylist.Name </li>
 }
 <p>@Html.ActionLink("Add new client", "Create")</p>
 
